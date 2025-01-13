@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+      <link
+         rel="stylesheet"
+         href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+         />
+   </head>
+   <body>
+      <section id="navbar">
+         <nav id="nav" class="active">
+            <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/logo-straight%20letters.png?v=1706422043642" alt="logo" id="logo">
+            <ul>
+               <li><a href="#about-me">Qui suis-je ?</a></li>
+               <li><a href="#feature">La kinésiologie</a></li>
+               <li><a href="#services">Services</a></li>
+               <li><a href="#contact"><button id="btn-one">Contact</button></a></li>
+            </ul>
+            <div id="icons"></div>
+         </nav>
+      </section>
+      <section id="header">
+         <div id="container">
+            <div class="left">
+               <h1>Découvrez le pouvoir de la kinésiologie</h1>
+               <p class="gold">Le bien être est synonyme de se sentir bien dans son corps mais aussi dans sa tête et aussi avec l’autre : ses enfants, son mari, son entourage ou toute personne ! Je te propose la kinésiologie pour :</p>
+               <ul class="gold">
+                  <li class="list">Gérer le stress et trouver l’équilibre</li>
+                  <li class="list">Améliorer ses compétences cognitives</li>
+                  <li class="list">Combattre la fatigue</li>
+               </ul>
+            </div>
+            <div class="right">
+               <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/dream-catcher.jpeg?v=1706421969248" class="header-image">
+            </div>
+         </div>
+      </section>
+      <section id="feature">
+         <div id="container">
+         <div class="left">
+            <h2>Pourquoi consulter<br> un kinésiologue ?</h2>
+            <p class="gold">Cette méthode vise à réharmoniser l'énergie corporelle, en s'inspirant des principes de la médecine traditionnelle chinoise. Le kinésiologue utilise le test musculaire pour obtenir une réponse du corps. J’entre en communication avec le corps pour savoir ce qu’il faut réequilibrer et la technique souhaitée par le corps.</p>
+         </div>
+         <div class="right">
+            <div class="wrapper">
+               <div class="card-container">
+                  <input type="radio" name="slide" id="c1" checked>
+                  <label for="c1" class="card">
+                     <div class="row">
+                        <div class="icon">1</div>
+                        <div class="description">
+                           <h4>Gestion du stress :</h4>
+                           <p>- Stress<br>- Gestion des émotions<br>- Angoisses passagères<br>- Peurs diverses<br>- Troubles du sommeil (en lien avec le stress, peur du noir, de la mort, de la nuit, difficultés à s’endormir)</p>
+                        </div>
+                     </div>
+                  </label>
+                  <input type="radio" name="slide" id="c2" >
+                  <label for="c2" class="card">
+                     <div class="row">
+                        <div class="icon">2</div>
+                        <div class="description">
+                           <h4>Apprentissage :</h4>
+                           <p>en cas de problème ou volonté d’améliorer ses compétences cognitives</p>
+                        </div>
+                     </div>
+                  </label>
+                  <input type="radio" name="slide" id="c3" >
+                  <label for="c3" class="card">
+                     <div class="row">
+                        <div class="icon">3</div>
+                        <div class="description">
+                           <h4>Fatigue :</h4>
+                           <p>surmenage professionnel, personnel</p>
+                        </div>
+                     </div>
+                  </label>
+                  <input type="radio" name="slide" id="c4" >
+                  <label for="c4" class="card">
+                     <div class="row">
+                        <div class="icon">4</div>
+                        <div class="description">
+                           <h4>Troubles psychosomatiques:</h4>
+                           <p>Si vous avez déjà entendu les phrases suivantes : « c’est le stress », « je ne peux rien faire pour vous », « c’est dans la tête »… La kinésiologie peut vous aider !</p>
+                        </div>
+                     </div>
+                  </label>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="call-to-action">
+         <div id="horizontal-container">
+            <h2>Prenez rendez-vous des aujourd'hui !</h2>
+            <p>Durée d’une séance ? 1h30 environ</p>
+            <p>Rhytme des séances : 1 séance toutes les 3 semaines à 1 mois. 3 séances conseillées au début.</p>
+            <h4>Tarifs : 400 AED</h4>
+            <form
+               action="https://formspree.io/f/xvoegyba"
+               method="POST"
+               >
+               <label>
+               <input type="email" name="email" placeholder="Votre email" class="text-input" required="">
+               </label>
+               <label>
+               <textarea name="message" class="text-input" placeholder="Votre message" required=""></textarea>
+               </label>
+               <button type="submit" id="btn-two">Envoyer</button>
+            </form>
+         </div>
+         <div id="video-container">
+            <video autoplay muted loop id="myVideo" playsinline>
+               <source src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/Hummingbird.mp4?v=1706421984577" type="video/mp4">
+            </video>
+         </div>
+      </section>
+      <section id="origins">
+         <div id="container">
+            <div class="left">
+               <p class="pink">Découvrez</p>
+               <h2>Les origines de la kinésiologie</h2>
+            </div>
+            <div class="right">
+               <p class="pink">Née dans les années 60 aux Etats-Unis, un chiropracteur Dc Goodheart remarque que le corps réagit à toute perturbation au niveau structurel, biochimique et psychologique. Son collègue John Thie lie la médecine occidentale à la médecine traditionnelle chinoise. Il crée la Santé pour le Toucher qui est la base de la kinésiologie.<span id="dots">...</span><br><span id="showMore">La médecine traditionnelle chinoise et à d'autres traditions de guérison holistique, les émotions sont étroitement liées à l'énergie corporelle et que les déséquilibres émotionnels peuvent avoir un impact sur la santé physique. Autrement dit, nos émotions s’inscrivent dans notre corps, si elles sont refoulées ou non exprimées, elles nous rongent et ont des conséquences sur notre santé.</span>
+               </p>
+               <button class="btn-three" id="btn-show-more" onclick="toggleText()">En savoir plus</button>
+            </div>
+         </div>
+         <div id="triangle-cont">
+            <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/triangle.png?v=1706422057051" alt="triangle" width="500px" class="triangle">
+         </div>
+      </section>
+      <section id="about-me">
+         <div id="container">
+            <div class="left">
+               <h2>Je suis Evelyne Wallaert</h2>
+               <p class="pink">J’ai passé une dizaine d’années en entreprise dans différentes activités : auditeurs financiers, chef de projet informatiques et RH. Après une longue période de remise en question et la rencontre d’un coach qui m’a accompagné pendant près d’un an j’ai décidé d'une reconversion dans l’accompagnement. Et j’ai choisi de devenir kinésiologue. <br><br>Je suis mariée et je suis maman d’une adolescente de 15 ans et d’un garçon de 10 ans. Nous sommes expatriés depuis 5 ans.</p>
+            </div>
+            <div class="right">
+               <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/_DSC3987.jpg?v=1706421957176" alt="photo" class="photo">
+            </div>
+         </div>
+      </section>
+      <section id="education">
+         <div class="centered">
+            <h2>Pourquoi j'ai choisi la kinésiologie ?</h2>
+            <p class="pink">J’ai toujours été intéressée par les méthodes de soin complémentaires : naturopathie, médecine traditionnelle chinoise, ayurvéda, hypnose… Lors d’une consultation avec un kinésiologue, j’ai découvert cette pratique qui allie le corps et l’esprit. J’ai aussi compris qu’elle se basait sur des principes ancestraux de la Médecine Traditionnelle Chinoise. Dans la pratique du coaching, j’ai réalisé que travailler sur l’inconscient me paraissait plus pertinent et l’utilisation du test musculaire en kinésiologie est un bon outil pour l’interroger.
+               En commençant la formation, j’ai constaté que la kinésiologie peut aider un grand nombre de personnes en passant par les bébés, les animaux, les enfants, les sportifs et les adultes. Elle agit sur les émotions, le corps, les comportements, le cerveau…
+            </p><br><br>
+            <p class="pink bold">Parcours et certifications</p>
+         </div>
+         <div class="certification">
+            <div class="cert"><button class="round">x</button><b class="pink">Maître praticien PNL</b></div>
+            <div class="cert"><button class="round">x</button><b class="pink">TFH proficiency</b></div>
+            <div class="cert"><button class="round">x</button><b class="pink">Brain gym : statut de facilitateur</b></div>
+            <div class="cert"><button class="round">x</button><b class="pink">One Brain : modules 1 à 3</b></div>
+         </div>
+      </section>
+      <section id="goal">
+         <div id="banner">
+            <div class="centered">
+               <h2>Pourquoi je veux aider mes clients ?</h2>
+               <p>Mon objectif est :</p>
+               <div class="elements">
+                  <div>
+                     <button class="round">x</button>
+                     <p>De rendre le plein potentiel à mes clients</p>
+                  </div>
+                  <div>
+                     <button class="round">x</button>
+                     <p>De leur transmettre les outils pour optimiser leurs capacités</p>
+                  </div>
+                  <div>
+                     <button class="round">x</button>
+                     <p>De les rendre autonome</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="container">
+            <div class="left">
+               <p class="pink">Favoriser l’effet colibri : <br>Le terme provient de la métaphore du colibri, popularisée par l'écologiste colombien Gustavo Petro. Il raconte l'histoire d'un colibri qui, face à un incendie de forêt, transporte de l'eau dans son bec pour tenter d'éteindre les flammes, même s'il sait que ses efforts semblent insignifiants par rapport à l'ampleur de l'incendie. 
+                  <br><br>À notre échelle, nous avons le pouvoir d'embellir la vie des gens autour de nous, que ce soit nos collègues ou les membres de notre famille par notre propre épanouissement. Ainsi nous pouvons changer le monde grâce à la création d'un cercle vertueux. On change, son entourage aussi, ainsi de suite un grand nombre de personnes et finalement le monde!
+               </p>
+            </div>
+            <div class="right">
+               <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/logo-without-text.png?v=1706422050280" alt="logo-withoout-text" class="colibri">
+            </div>
+         </div>
+      </section>
+      <section id="services">
+         <h2 class="centered">Mes services :</h2>
+         <div id="container">
+            <div id="service-card">
+               <h2>Séance de groupe</h2>
+               <p class="pink subtitle">A destination des particuliers</p>
+               <p class="pink">En groupe de 5/6 personnes, sur un thème :</p>
+               <ul class="pink">
+                <li>- confiance en soi,</li>
+                <li>- surmonter nos peurs,</li>
+                <li>- être performant…</li>
+             </ul>
+               <br>
+               <p class="pink subtitle">A destination des entreprises</p>
+               <p class="pink">Gestion du stress des salariés</p>
+               <p class="pink">Je vous transmets des techniques de kinésiologie pour atteindre votre objectif de façon autonome.</p>
+               <button id="btn-two" class="btn-two">S'inscrire</button>
+            </div>
+            <div id="service-card">
+               <h2>Séance individuelle</h2>
+               <p class="pink">Elle se déroule ainsi :</p>
+               <ul class="pink">
+                  <li>- Recueil de la demande;</li>
+                  <li>- Préparation de la communication avec le corps (test musculaire);</li>
+                  <li>- Equilibrations avec les techniques de kinésiologie : TFH, Brain Gym, One Brain;</li>
+                  <li>- Bilan de la séance</li>
+               </ul>
+               <button id="btn-two" class="btn-two">S'inscrire</button>
+            </div>
+         </div>
+      </section>
+      <section id="feedback">
+         <div class="feedback">
+            <h2>Ce que disent mes clients :</h2>
+            <p class="pink">Lisez les témoignages de clients qui ont bénéficié des services de kinésiologie d'Evelyne.</p>
+         </div>
+         <div class="testimonials">
+            <div class="cont">
+               <div class="testimonials-content">
+                  <div class="swiper testimonials-slider js-testimonials-slider">
+                     <div class="swiper-wrapper">
+                        <div class="swiper-slide testimonials-item">
+                           <div class="info">
+                              <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/logo-without-text.png?v=1706422050280" alt="logo">
+                              <div class="text-box">
+                                 <p class="pink">Affectée par des problèmes amicaux à l’école , Evelyne a sû grâce à sa technique et sa douceur faire parler le corps de ma fille de 6 ans. Pas à pas, Evelyne a amorcé une libération de ses émotions. Je vous conseille les yeux fermés de contacter Evelyne pour toute problématique.</p>
+                              </div>
+                           </div>
+                           <p class="name">Sophie Lefevbre</p>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                           <div class="info">
+                              <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/logo-without-text.png?v=1706422050280" alt="logo">
+                              <div class="text-box">
+                                 <p class="pink">Je recommande les sessions de kinésiologie d'Evelyne. Elles m'ont permises d'avoir un autre rapport au corps. Ce fut une vraie découverte que de comprendre qu'il y a un lien entre les mouvements qu'Evelyne nous fait faire et le déblocage de zones dans notre corps où sont bloquées certaines émotions. Cela m'a bien aidé pour mettre à distance mon stress. Essayez ! C'est vraiment novateur.</p>
+                              </div>
+                           </div>
+                           <p class="name">Vanda</p>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                           <div class="info">
+                              <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/logo-without-text.png?v=1706422050280" alt="logo">
+                              <div class="text-box">
+                                 <p class="pink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </div>
+                           </div>
+                           <p class="name">Sophie Marceau</p>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                           <div class="info">
+                              <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/logo-without-text.png?v=1706422050280" alt="logo">
+                              <div class="text-box">
+                                 <p class="pink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </div>
+                           </div>
+                           <p class="name">Sarah Jessica Parker</p>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                           <div class="info">
+                              <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/logo-without-text.png?v=1706422050280" alt="logo">
+                              <div class="text-box">
+                                 <p class="pink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </div>
+                           </div>
+                           <p class="name">Christopher Nolan</p>
+                        </div>
+                        <div class="swiper-slide testimonials-item">
+                           <div class="info">
+                              <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/logo-without-text.png?v=1706422050280" alt="logo">
+                              <div class="text-box">
+                                 <p class="pink">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              </div>
+                           </div>
+                           <p class="name">Mark Ruffalo</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-pagination js-testimonials-pagination"></div>
+            </div>
+         </div>
+      </section>
+      <section id="contact">
+         <div class="cont-title">
+            <h2>Contactez-moi dès aujourd’hui :</h2>
+            <p class="pink">Pour toute question, n’hésitez pas de m’envoyer un message</p>
+            <div class="contact-box">
+               <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/icons8-email-75.png?v=1706421993205" alt="email icon" width="50px">
+               <h6 class="name">Email</h6>
+               <a href="mailto:mail@evelynewallaert.com" target="_blank">mail@evelynewallaert.com</a>
+            </div>
+            <div class="contact-box">
+               <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/icons8-phonecall-75.png?v=1706422019993" alt="phone icon" width="50px">
+               <h6 class="name">Téléphone</h6>
+               <a href="tel:+971585521742">+(971) 58 55 21 742</a>
+            </div>
+            <div class="contact-box">
+               <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/icons8-location-pin-75.png?v=1706422013691" alt="location pin" width="50px">
+               <h6 class="name">Adresse</h6>
+               <a href="https://maps.app.goo.gl/W6FUQn3mc7HQsbj96" target="_blank">Al Bada’a - Dubai - Emirats Arabes Unis</a>
+            </div>
+         </div>
+         <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.303229596885!2d55.27983587495614!3d25.226709830505484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42ee35ba219b%3A0x1881198314ac637a!2sAl%20Badaa&#39;%20St%20-%20Al%20Satwa%20-%20Dubai!5e0!3m2!1sfr!2sae!4v1706195391940!5m2!1sfr!2sae" 
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </div>
+      </section>
+      <section id="footer">
+         <div class="footer-logo">
+            <img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/logo-straight%20letters.png?v=1706422043642" alt="logo" width="210px">
+         </div>
+         <div class="footer-box">
+            <p class="pink"><a href="#about-me">Qui suis-je ?</a></p>
+            <p class="pink"><a href="#feature">La kinésiologie</a></p>
+            <p class="pink"><a href="#services">Services</a></p>
+         </div>
+         <div class="legals">
+            <div>
+               <p>© Evelyne Wallaert. Tous droits réservés.</p>
+            </div>
+            <div class="social-media">
+               <a href="https://www.instagram.com/evelyne_wallaert/" target="_blank"><img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/icons8-instagram-128.png?v=1706422007179" alt="Instagram"></a>
+               <a href="tel:+971585521742" target="_blank"><img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/icons8-whatsapp-128.png?v=1706422031052" alt="WhatsApp"></a>
+               <a href="https://www.facebook.com/CareerdesignbyEW/" target="_blank"><img src="https://cdn.glitch.global/e6cb8758-b787-4fed-81e5-d54df5095fdc/icons8-facebook-128.png?v=1706422000352" alt="Facebook"></a>
+            </div>
+         </div>
+      </section>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+         const swiper = new Swiper('.js-testimonials-slider', {
+          grabCursor: true,
+          spaceBetween: 30,
+          pagination: {
+             el: '.js-testimonials-pagination',
+             clickable: true
+          },
+          breakpoints: {
+             767:{
+                 slidesPerView: 2
+             }
+          }  
+         });
+      </script>
+   </body>
+</html>
